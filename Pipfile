@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pythonp2p = {git = "https://github.com/GianisTsol/python-p2p.git"}
+pycryptodome = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
